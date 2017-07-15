@@ -15,8 +15,9 @@ $ yarn add naivecache
 Decide what you want to cache, and how to handle misses
 
 ```
-const myCache = new NaiveCacher({ ttl: 86400 }, () =>
-  handleMisses()
+const myCache = new NaiveCacher( () =>
+  Promise.resolve("this is what you've been missing",
+  { ttl: 86400 }
 )
 ```
 
