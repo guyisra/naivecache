@@ -38,4 +38,4 @@ Fork, implement, add tests, pull request, get my everlasting thanks and a respec
 
 # Copyright
 
-Copyright (c) 2017 [Guy Israeli] [@jondot](http://twitter.com/isguyra). See [LICENSE](LICENSE) for further details.
+Copyright (c) 2017 [Guy Israeli] [@isguyra](http://twitter.com/isguyra). See [LICENSE](LICENSE) for further details.
