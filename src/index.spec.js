@@ -1,4 +1,4 @@
-const NaiveCacher = require('./naiveCacher')
+const NaiveCacher = require('./index.js')
 
 const contentFetcher = () => Promise.resolve('This is fresh content!!')
 
