@@ -1,6 +1,6 @@
 {
   "name": "naivecache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very simple a naive cacher",
   "main": "src/index.js",
   "author": "Guy Israeli <guy.israeli@gmail.com>",

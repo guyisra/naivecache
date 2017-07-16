@@ -38,11 +38,11 @@ class NaiveCacher {
   }
 
   isExpired() {
-    return timeNowInSeconds() - this.cache.savedAt < this.ttl
+    return timeNowInSeconds() - this.cache.savedAt > this.ttl
   }
 
   isCached() {
-    return this.cache.content !== null && this.isExpired()
+    return this.cache.content !== null && !this.isExpired()
   }
 }
 
